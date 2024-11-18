@@ -19,8 +19,8 @@ const BrowseJobs = ({ isHome = false }) => {
         setLoading(false);
       }
     };
-
-    fetchJobs();
+    
+    fetchJobs();<div>Navbar</div>
   }, []);
 
   return (
